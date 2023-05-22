@@ -8,7 +8,6 @@ import {
   Delete,
 } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
-import { BooksCreateInput } from 'src/@generated/books/books-create.input';
 import { BooksService } from './books.service';
 
 @Controller('books')

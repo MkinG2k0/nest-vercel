@@ -7,7 +7,7 @@ import {
   Param,
   Delete,
 } from '@nestjs/common';
-import { AuthorCreateInput } from '../@generated/author/author-create.input';
+import { AuthorCreateInput } from '@valid-types/author/author-create.input';
 import { AuthorsService } from './authors.service';
 import { UpdateAuthorDto } from './dto/update-author.dto';
 
