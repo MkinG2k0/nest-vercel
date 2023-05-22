@@ -19,7 +19,7 @@
     "noFallthroughCasesInSwitch": false,
     "paths": {
       "@valid-types/*": ["./prisma/@types/*"],
-
+      "@prisma/client": ["./prisma/client"],
     }
   }
 }
